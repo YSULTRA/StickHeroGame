@@ -1,0 +1,3 @@
+Highest Score: 32
+Last Score: 0
+Number of Cherries: 0

@@ -1,0 +1,139 @@
+/* styles.css */
+
+#playbutton {
+    -fx-background-color: rgba(199, 139, 129, 0.5);
+    -fx-border-color: transparent; /* Border color (Dark Green) */
+    -fx-padding: 15px 32px;
+    -fx-text-align: center;
+    -fx-text-decoration: none;
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 60px; /* Round edges */
+    -fx-cursor: hand; /* Cursor style on hover */
+    -fx-transition: all 0.9s; /* Add smooth transition */
+
+}
+
+#playbutton:hover {
+    -fx-background-color: #45a049; /* Darker green color on hover */
+    -fx-scale-x: 1.1; /* Increase size on hover */
+    -fx-scale-y: 1.1;
+}
+
+#playbutton .text {
+    -fx-font-family: 'Verdana'; /* Use your desired cartoonish font */
+    -fx-fill: white; /* Text color */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0, 0, 1); /* Add a drop shadow effect */
+}
+#pillar {
+    -fx-background-color: black;
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 0, 0); /* Shadow on the edges */
+}
+
+/* playbuttonStyle.css */
+
+/* Default style for the button */
+/* Default style for the button */
+/* Default style for the button */
+#scorebutton {
+    -fx-background-color: linear-gradient(to bottom, #ffcc66, #ff9900); /* Orange gradient background */
+    -fx-border-color: #cc3525; /* Dark Orange border color */
+    -fx-border-width: 5; /* Thicker border width */
+    -fx-background-radius: 13 13 13 13; /* Curvy background radius */
+    -fx-border-radius: 10 10 10 10; /* Curvy border radius */
+    -fx-text-fill: #cc3525; /* Dark Orange text color */
+    -fx-font-size: 24px; /* Larger font size */
+    -fx-font-family: 'Verdana'; /* Use your desired cartoonish font */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 0, 1); /* Shadow effect */
+    -fx-pref-width: 216px; /* Preferred width */
+    -fx-pref-height: 64px; /* Preferred height */
+}
+
+/* Hover style for the button */
+#scorebutton:hover {
+    -fx-scale-x: 1.1; /* Enlarge horizontally */
+    -fx-scale-y: 1.1; /* Enlarge vertically */
+    -fx-cursor: hand; /* Show hand cursor on hover */
+}#scorebutton1 {
+    -fx-background-color: linear-gradient(to bottom, #ffcc66, #ff9900); /* Orange gradient background */
+    -fx-border-color: #cc3525; /* Dark Orange border color */
+    -fx-border-width: 5; /* Thicker border width */
+    -fx-background-radius: 13 13 13 13; /* Curvy background radius */
+    -fx-border-radius: 10 10 10 10; /* Curvy border radius */
+    -fx-text-fill: #cc3525; /* Dark Orange text color */
+    -fx-font-size: 24px; /* Larger font size */
+    -fx-font-family: 'Verdana'; /* Use your desired cartoonish font */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 0, 1); /* Shadow effect */
+    -fx-pref-width: 300px; /* Preferred width */
+    -fx-pref-height: 64px; /* Preferred height */
+}
+#scoreLabel {
+    -fx-text-fill: black;
+    -fx-font-size: 24px; /* Increased font size */
+    -fx-font-family: 'Cursive'; /* Use a cursive font family */
+    -fx-background-color: transparent; /* Set background color to transparent */
+    -fx-background-size: cover; /* Ensure the background image covers the entire label */
+    -fx-background-repeat: no-repeat; /* Prevent the background image from repeating */
+    -fx-background-position: center; /* Center the background image */
+}
+
+
+
+/* Hover style for the button */
+#scorebutton1:hover {
+    -fx-scale-x: 1.1; /* Enlarge horizontally */
+    -fx-scale-y: 1.1; /* Enlarge vertically */
+    -fx-cursor: hand; /* Show hand cursor on hover */
+}
+
+#exitbutton{
+    -fx-background-color: linear-gradient(to bottom, #ffcc66, #ff9900); /* Orange gradient background */
+    -fx-border-color: #cc3525; /* Dark Orange border color */
+    -fx-border-width: 5; /* Thicker border width */
+    -fx-background-radius: 13 13 13 13; /* Curvy background radius */
+    -fx-border-radius: 10 10 10 10; /* Curvy border radius */
+    -fx-text-fill: #cc3525; /* Dark Orange text color */
+    -fx-font-size: 18px; /* Larger font size */
+    -fx-font-family: 'Verdana'; /* Use your desired cartoonish font */
+    -fx-font-weight: bold; /* Bold font weight */
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0, 0, 1); /* Shadow effect */
+    -fx-pref-width: 216px; /* Preferred width */
+    -fx-pref-height: 64px; /* Preferred height */
+}
+
+/* Hover style for the button */
+#exitbutton:hover {
+    -fx-scale-x: 1.1; /* Enlarge horizontally */
+    -fx-scale-y: 1.1; /* Enlarge vertically */
+    -fx-cursor: hand; /* Show hand cursor on hover */
+}
+//* Default style for the ProgressBar */
+ #progressbar {
+     -fx-control-inner-background: #cc3525; /* 50% transparent green color for fill */
+     -fx-border-color: #cc3525; /* Orange border color */
+     -fx-border-width: 2px; /* Border width */
+     -fx-border-radius: 10px; /* Border radius for curved edges */
+ }
+
+ /* Set the font and size for the progress text */
+ #progressbar .text {
+     -fx-font-family: 'Verdana'; /* Use your desired font */
+     -fx-font-size: 14px; /* Font size */
+ }
+
+ /* Customize the track of the ProgressBar */
+ #progressbar .track {
+     -fx-background-color: #40bf39; /* DimGray color for track background */
+ }
+
+ /* Customize the bar of the ProgressBar */
+ #progressbar .bar {
+     -fx-background-color: #cc3525; /* DarkTurquoise color for bar */
+ }
+
+ /* Customize the label of the ProgressBar */
+ #progressbar .label {
+     -fx-text-fill: #008080; /* Teal color for label text */
+ }
